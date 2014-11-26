@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c90f80b1-ebd6-42f3-9dcc-201d6d988159" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://127.0.0.1:9999/WcfServices/metadata" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="metadata.wsdl" MetadataType="Wsdl" ID="a7488cd0-2d03-45c9-929c-36f344b06618" SourceId="1" SourceUrl="http://127.0.0.1:9999/WcfServices/metadata?wsdl=wsdl0" />
+    <MetadataFile FileName="metadata.xsd" MetadataType="Schema" ID="b293509f-330d-434f-b0e2-e6ddbe280e8d" SourceId="1" SourceUrl="http://127.0.0.1:9999/WcfServices/metadata?xsd=xsd2" />
+    <MetadataFile FileName="WCFService.wsdl" MetadataType="Wsdl" ID="18238663-a28b-4f73-8caf-d47d7ef9d9e0" SourceId="1" SourceUrl="http://127.0.0.1:9999/WcfServices/metadata" />
+    <MetadataFile FileName="metadata1.xsd" MetadataType="Schema" ID="d15f125e-ead6-44c5-8701-14c86aa02efc" SourceId="1" SourceUrl="http://127.0.0.1:9999/WcfServices/metadata?xsd=xsd0" />
+    <MetadataFile FileName="metadata2.xsd" MetadataType="Schema" ID="00c07681-365f-4fb6-90e6-52e912915944" SourceId="1" SourceUrl="http://127.0.0.1:9999/WcfServices/metadata?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
