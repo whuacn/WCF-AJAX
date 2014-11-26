@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <script type="text/javascript">
+        /*
+        一：什么是AJAX？
+            AJAX全称是Asynchronous JavaScript and XML,也就是异步的JavaScript和XML。
+        AJAX是在1998年前后得到了应用，第一个XMLHTTP组件有Outlook Web Access小组完成，并迅速称为了IE4.0的一部分。
+        但是AJAX的推广确实Google公司。2005年Google的大部分产品都使用了AJAX,如GMail，Google地图，Gogole搜索建议等。
+
+        二：AJAX基本原理与有点：
+            AJAX技术的本质原理就是：使用JavaScript的XMLHttpRequest对象来直接与服务器进行通信。通过这个对象，
+        JavaScript可以在不重载页面的情况下与Web服务器交换数据，然后通过DOM更新部分页面属性。
+            它最大的有点在于它带来的更好的用户体验。与传统的Web页面请求不同，AJAX技术当提交表单时就向Web服务器发送请求，
+        服务器接受并处理传来的表单，然后返回一个新的网页，这个做法浪费了许多带宽，因为在前后两个页面中的大部分HTML代码
+        都是相同的。AJAX在浏览器与Web服务器之间使用异步数据传输(HTTP请求)，这样就可使网页从服务器请求少量的信息，
+        而不是整个页面。
+            AJAX可使Web应用程序更小，更快，更友好。
+        
+        三：XMLHttpRequest对象
+            AJAX的核心在于XMLHttpRequest对象。它是AJAX实现的基础。不同的浏览器创建XMLHttpRequest对象的方法是有差异的。
+        IE使用ActiveXObject，而其他的浏览器使用名为XMLHttpRequest的JavaScript内建对象。
+            
+            XMLHttpRequest对象状态:
+            0-------------请求未初始化(在调用open()方法之前)
+            1-------------请求已提出(在调用send()方法之前)
+            2-------------请求已发送(这里通常可以从响应中得到内容头部)
+            3-------------请求处理中(响应中他通常有部分数据可用，但服务器还没有完成响应)
+            4-------------请求已完成(可以访问服务器响应并使用它)
+            也就是说，我们在readyState == 4的时候，来处理返回结果。这样保证了XMLHttpRequest对象完成了与服务器的交互全过程。
+            
+
+            处理返回数据:
+            在XMLHttpRequest对象返回数据之后，我们需要对数据进行处理。这些返回的数据可以使字符，也可以是XML文档格式。
+            这里我们需要在XMLHttpRequest对象的onreadystatechange属性绑定我们要处理数据的JavsScript函数，进行数据的处理。
+            我们可以通过XMLHttpRequest对象responseText属性来获取由服务器返回的数据。
+            xmlHttp.onreadystatechange = function(){
+                if(xmlHttp.readyState == 4){
+                    var data = xmlHttp.responseText;
+                    //数据处理
+                }
+            }
+            如果返回的是XML格式的数据，我们通过xmlHttp.responseXML.documentElement来处理。
+            了解了如何处理响应后，就要发送请求了，可以调用HTTP请求类的open()和send()方法，想请求的服务器发送数据和请求
+            xmlHttp.open('GET','http://www.google.com',true);
+            xmlHttp.send(null);
+            open()方法的第一个参数是HTTP请求方法---GET,POST,HEAD或任何服务器所支持调用的方法。
+            第二个参数是请求的URL，
+            第三个参数设置请求是否为异步模式，如果第一个蚕食是"POST",那么send()方法的参数可以是任何想发送给服务器的参数，
+            注意是以字符串的形式发送给服务器的:name=frame$address=wuhan。
+        */
+
+        function ajaxCall() {
+            var xmlHttp;
+            try {
+
+                // Safari 1.2、Mozilla 1.0 / Firefox、Opera 8+ 以及 Netscape 7等浏览器
+                xmlHttp = new XMLHttpRequest();
+            } catch (e) {
+                // Internet Explorer 5.0+浏览器
+                try {
+
+                    xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+                } catch (e) {
+
+                    try {
+
+                        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                    } catch (e) {
+
+                        alert("浏览器不支持AJAX!");
+                        return false;
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

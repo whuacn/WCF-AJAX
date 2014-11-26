@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication_Host", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication_Client", "ConsoleApplication_Client\ConsoleApplication_Client.csproj", "{380BF791-4A64-46B4-8820-F5E62BD56136}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WCF与AJAX编程", "WCF与AJAX编程", "{781F7920-6EBE-4158-ABAA-E173EF50536C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajax基础原理", "Ajax基础原理\Ajax基础原理.csproj", "{160E8E43-1F34-416D-B1E8-50D8227AE7FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +51,10 @@ Global
 		{380BF791-4A64-46B4-8820-F5E62BD56136}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{380BF791-4A64-46B4-8820-F5E62BD56136}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{380BF791-4A64-46B4-8820-F5E62BD56136}.Release|Any CPU.Build.0 = Release|Any CPU
+		{160E8E43-1F34-416D-B1E8-50D8227AE7FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{160E8E43-1F34-416D-B1E8-50D8227AE7FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{160E8E43-1F34-416D-B1E8-50D8227AE7FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{160E8E43-1F34-416D-B1E8-50D8227AE7FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,5 +66,6 @@ Global
 		{15B3E0D2-6217-493A-A690-158C497F5318} = {B1DC99A6-52B4-412F-9186-EAA657CEC4A3}
 		{D7EDD5D9-77AF-47EA-9754-0107C78D3234} = {B1DC99A6-52B4-412F-9186-EAA657CEC4A3}
 		{380BF791-4A64-46B4-8820-F5E62BD56136} = {B1DC99A6-52B4-412F-9186-EAA657CEC4A3}
+		{160E8E43-1F34-416D-B1E8-50D8227AE7FC} = {781F7920-6EBE-4158-ABAA-E173EF50536C}
 	EndGlobalSection
 EndGlobal
