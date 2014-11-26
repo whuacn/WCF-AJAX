@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WCF与AJAX编程", "WCF与A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajax基础原理", "Ajax基础原理\Ajax基础原理.csproj", "{160E8E43-1F34-416D-B1E8-50D8227AE7FC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "支持JSON的AJAX-WCF服务", "支持JSON的AJAX-WCF服务", "{156C6349-7CF0-4502-BEE0-BF944268A004}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

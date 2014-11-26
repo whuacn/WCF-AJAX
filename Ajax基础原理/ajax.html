@@ -1,8 +1,8 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>纯AJAX例子：读取数据</title>
     <script type="text/javascript">
         /*
         一：什么是AJAX？
@@ -75,10 +75,33 @@
                     }
                 }
             }
+            /*绑定数据处理函数*/
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4) {//交互完成
+                    if (xmlHttp.status == 200) {//http状态标识码200 ok
+
+
+                        document.getElementById('txtResult').innerHTML = document.getElementById('txtUsername').value + " " + xmlHttp.responseText;
+                    }
+                    else {
+                        alert('请求服务器出错.');
+                    }
+                }
+            }
+            xmlHttp.open('GET', '../data/data.txt', true);//异步请求
+            xmlHttp.send(null);
         }
     </script>
 </head>
 <body>
-
+    <form style="text-align: left">
+        姓名:
+        <input type="text" name="txtUsername" id="txtUsername" style="width: 400px;" />
+        <br />
+        测试:<input type="button" name="btn" value="测试" onclick="ajaxCall();" style="width: 400px;" />
+        <br />
+        结果:
+        <textarea name="txtResult" id="txtResult" style="width: 400px;"></textarea>
+    </form>
 </body>
 </html>
