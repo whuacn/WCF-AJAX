@@ -39,6 +39,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wcf.Operation.OverLoad.Host
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wcf.Operation.OverLoad.Client", "Wcf.Operation.OverLoad.Client\Wcf.Operation.OverLoad.Client.csproj", "{9CEEC721-3DF6-4D67-9985-F9831E4FB326}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WCF数据契约与序列化", "WCF数据契约与序列化", "{091BE551-3133-4BEA-BA6A-0832AFFFC2A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wcf.DataSerialization.Service", "Wcf.DataSerialization.Service\Wcf.DataSerialization.Service.csproj", "{55A9DB7D-F71E-4666-A433-DD4216386EF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wcf.DataSerialization.Host", "Wcf.DataSerialization.Host\Wcf.DataSerialization.Host.csproj", "{289E57C2-9044-478E-AC4F-39519864CB04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wcf.DataSerialization.Client", "Wcf.DataSerialization.Client\Wcf.DataSerialization.Client.csproj", "{ECB2906B-4A26-467F-958A-658D0DF9872A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +105,18 @@ Global
 		{9CEEC721-3DF6-4D67-9985-F9831E4FB326}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CEEC721-3DF6-4D67-9985-F9831E4FB326}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CEEC721-3DF6-4D67-9985-F9831E4FB326}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55A9DB7D-F71E-4666-A433-DD4216386EF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55A9DB7D-F71E-4666-A433-DD4216386EF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55A9DB7D-F71E-4666-A433-DD4216386EF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55A9DB7D-F71E-4666-A433-DD4216386EF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{289E57C2-9044-478E-AC4F-39519864CB04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{289E57C2-9044-478E-AC4F-39519864CB04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{289E57C2-9044-478E-AC4F-39519864CB04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{289E57C2-9044-478E-AC4F-39519864CB04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECB2906B-4A26-467F-958A-658D0DF9872A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECB2906B-4A26-467F-958A-658D0DF9872A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECB2906B-4A26-467F-958A-658D0DF9872A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECB2906B-4A26-467F-958A-658D0DF9872A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -115,5 +135,8 @@ Global
 		{C917F4AA-8E2F-443A-9BA2-FE6A900C06AE} = {38152208-7466-4DE5-AECD-45B2A5602522}
 		{A72244ED-8A88-484A-817E-1EAEBF9BF344} = {38152208-7466-4DE5-AECD-45B2A5602522}
 		{9CEEC721-3DF6-4D67-9985-F9831E4FB326} = {38152208-7466-4DE5-AECD-45B2A5602522}
+		{55A9DB7D-F71E-4666-A433-DD4216386EF8} = {091BE551-3133-4BEA-BA6A-0832AFFFC2A5}
+		{289E57C2-9044-478E-AC4F-39519864CB04} = {091BE551-3133-4BEA-BA6A-0832AFFFC2A5}
+		{ECB2906B-4A26-467F-958A-658D0DF9872A} = {091BE551-3133-4BEA-BA6A-0832AFFFC2A5}
 	EndGlobalSection
 EndGlobal

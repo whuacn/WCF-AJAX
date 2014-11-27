@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d385b912-bb5d-4b33-b60b-5a8c9963c231" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8023/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="startcaft.wsdl" MetadataType="Wsdl" ID="d65f312c-400e-4d02-80fa-d6d31702c22c" SourceId="1" SourceUrl="http://localhost:8023/mex" />
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="cc9f2aa9-ce84-4895-95ce-8c2f42f3d3ce" SourceId="1" SourceUrl="http://localhost:8023/mex" />
+    <MetadataFile FileName="startcaft.xsd" MetadataType="Schema" ID="13cf972e-cc32-4c1a-9db8-50a223025909" SourceId="1" SourceUrl="http://localhost:8023/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="1f616eb3-6a4e-4923-a9c8-8716d41ebc6a" SourceId="1" SourceUrl="http://localhost:8023/mex" />
+    <MetadataFile FileName="Wcf.DataSerialization.Service.xsd" MetadataType="Schema" ID="91bf2cfd-6759-4c40-9171-466e7e68069d" SourceId="1" SourceUrl="http://localhost:8023/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
