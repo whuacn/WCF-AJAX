@@ -55,6 +55,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wcf.UseDataTable_DataSet_Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wcf.UseDataTable_DataSet_Collection.Client", "Wcf.UseDataTable_DataSet_Collection.Client\Wcf.UseDataTable_DataSet_Collection.Client.csproj", "{D1373DD4-3209-43C7-8031-BA28F8CA0384}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WCF服务实例激活模式", "WCF服务实例激活模式", "{442F5722-666E-4596-BC24-4CBE2848B438}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wcf.ServiceContext.Mode.Service", "Wcf.ServiceContext.Mode.Service\Wcf.ServiceContext.Mode.Service.csproj", "{D309BAA9-A9A2-444D-9D07-B7C2ADF248E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wcf.ServiceContext.Mode.Host", "Wcf.ServiceContext.Mode.Host\Wcf.ServiceContext.Mode.Host.csproj", "{FADFC8E3-11E9-497A-8946-366C5DCAC3A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wcf.ServiceContext.Mode.Client", "Wcf.ServiceContext.Mode.Client\Wcf.ServiceContext.Mode.Client.csproj", "{6CE5868D-6B67-4469-A0E5-A87B4555D8D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -137,6 +145,18 @@ Global
 		{D1373DD4-3209-43C7-8031-BA28F8CA0384}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1373DD4-3209-43C7-8031-BA28F8CA0384}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1373DD4-3209-43C7-8031-BA28F8CA0384}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D309BAA9-A9A2-444D-9D07-B7C2ADF248E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D309BAA9-A9A2-444D-9D07-B7C2ADF248E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D309BAA9-A9A2-444D-9D07-B7C2ADF248E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D309BAA9-A9A2-444D-9D07-B7C2ADF248E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FADFC8E3-11E9-497A-8946-366C5DCAC3A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FADFC8E3-11E9-497A-8946-366C5DCAC3A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FADFC8E3-11E9-497A-8946-366C5DCAC3A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FADFC8E3-11E9-497A-8946-366C5DCAC3A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CE5868D-6B67-4469-A0E5-A87B4555D8D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CE5868D-6B67-4469-A0E5-A87B4555D8D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CE5868D-6B67-4469-A0E5-A87B4555D8D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CE5868D-6B67-4469-A0E5-A87B4555D8D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -161,5 +181,8 @@ Global
 		{71DAFE94-D848-46E0-BFFB-97F6887B4F1E} = {0CD1FB8B-2701-4834-BD7B-7D3F16F1AC7D}
 		{3F95F64D-F3CD-4A84-82D1-5EACC6C374EF} = {0CD1FB8B-2701-4834-BD7B-7D3F16F1AC7D}
 		{D1373DD4-3209-43C7-8031-BA28F8CA0384} = {0CD1FB8B-2701-4834-BD7B-7D3F16F1AC7D}
+		{D309BAA9-A9A2-444D-9D07-B7C2ADF248E4} = {442F5722-666E-4596-BC24-4CBE2848B438}
+		{FADFC8E3-11E9-497A-8946-366C5DCAC3A9} = {442F5722-666E-4596-BC24-4CBE2848B438}
+		{6CE5868D-6B67-4469-A0E5-A87B4555D8D1} = {442F5722-666E-4596-BC24-4CBE2848B438}
 	EndGlobalSection
 EndGlobal
