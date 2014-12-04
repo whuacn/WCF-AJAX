@@ -87,6 +87,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wcf.Rest.Service", "Wcf.Res
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wcf.Rest.Host", "Wcf.Rest.Host\Wcf.Rest.Host.csproj", "{22B59A8F-EEE8-4ABF-A9F9-4FAAF997CA4D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wcf.Rest.Client", "Wcf.Rest.Client\Wcf.Rest.Client.csproj", "{BAFD2588-1CF7-4244-95C2-21D3B5592B55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -217,6 +219,10 @@ Global
 		{22B59A8F-EEE8-4ABF-A9F9-4FAAF997CA4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22B59A8F-EEE8-4ABF-A9F9-4FAAF997CA4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22B59A8F-EEE8-4ABF-A9F9-4FAAF997CA4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAFD2588-1CF7-4244-95C2-21D3B5592B55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAFD2588-1CF7-4244-95C2-21D3B5592B55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAFD2588-1CF7-4244-95C2-21D3B5592B55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAFD2588-1CF7-4244-95C2-21D3B5592B55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -253,5 +259,6 @@ Global
 		{D96376EC-801D-4682-96C8-C0886E65EF27} = {63852CB4-E044-4307-A42A-66AA9E51DF59}
 		{A9C20DD3-7781-47A7-AE86-D97F77D6F781} = {63852CB4-E044-4307-A42A-66AA9E51DF59}
 		{22B59A8F-EEE8-4ABF-A9F9-4FAAF997CA4D} = {63852CB4-E044-4307-A42A-66AA9E51DF59}
+		{BAFD2588-1CF7-4244-95C2-21D3B5592B55} = {63852CB4-E044-4307-A42A-66AA9E51DF59}
 	EndGlobalSection
 EndGlobal
