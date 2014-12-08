@@ -97,6 +97,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "创建基本Wcf_Web_Http服
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wcf_Web_Http.BasicWebProgramming", "Wcf_Web_Http.BasicWebProgramming\Wcf_Web_Http.BasicWebProgramming.csproj", "{D04B716A-6DC3-4474-87D3-5DF1EB9BF566}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WCF_WEB_Http编程模型创建返回任意数据的服务", "WCF_WEB_Http编程模型创建返回任意数据的服务", "{1741B500-639C-4869-87D8-0B320E61CF89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wcf.Web.Http.ReturnStream.Service", "Wcf.Web.Http.ReturnStream.Service\Wcf.Web.Http.ReturnStream.Service.csproj", "{963180BA-86C1-4275-AACF-FD2D8E49E71F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wcf.Web.Http.ReturnStream.Host", "Wcf.Web.Http.ReturnStream.Host\Wcf.Web.Http.ReturnStream.Host.csproj", "{59CDDDDB-1989-4AAF-8CE6-28D3FAC8126E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -239,6 +245,14 @@ Global
 		{D04B716A-6DC3-4474-87D3-5DF1EB9BF566}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D04B716A-6DC3-4474-87D3-5DF1EB9BF566}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D04B716A-6DC3-4474-87D3-5DF1EB9BF566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{963180BA-86C1-4275-AACF-FD2D8E49E71F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{963180BA-86C1-4275-AACF-FD2D8E49E71F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{963180BA-86C1-4275-AACF-FD2D8E49E71F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{963180BA-86C1-4275-AACF-FD2D8E49E71F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59CDDDDB-1989-4AAF-8CE6-28D3FAC8126E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59CDDDDB-1989-4AAF-8CE6-28D3FAC8126E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59CDDDDB-1989-4AAF-8CE6-28D3FAC8126E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59CDDDDB-1989-4AAF-8CE6-28D3FAC8126E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -278,5 +292,7 @@ Global
 		{BAFD2588-1CF7-4244-95C2-21D3B5592B55} = {63852CB4-E044-4307-A42A-66AA9E51DF59}
 		{9CF9BEC2-ED26-42AD-BDD0-648553B14C2D} = {17F7151C-3197-4E87-A91E-45F585226F12}
 		{D04B716A-6DC3-4474-87D3-5DF1EB9BF566} = {A31E83A5-7F53-4907-B11D-88520345402F}
+		{963180BA-86C1-4275-AACF-FD2D8E49E71F} = {1741B500-639C-4869-87D8-0B320E61CF89}
+		{59CDDDDB-1989-4AAF-8CE6-28D3FAC8126E} = {1741B500-639C-4869-87D8-0B320E61CF89}
 	EndGlobalSection
 EndGlobal
