@@ -103,6 +103,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wcf.Web.Http.ReturnStream.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wcf.Web.Http.ReturnStream.Host", "Wcf.Web.Http.ReturnStream.Host\Wcf.Web.Http.ReturnStream.Host.csproj", "{59CDDDDB-1989-4AAF-8CE6-28D3FAC8126E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WCF_REST复杂一点的示例", "WCF_REST复杂一点的示例", "{DF218EDD-597B-4762-B621-E33F2C97E66F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wcf.Rest.Study.Service", "Wcf.Rest.Study.Service\Wcf.Rest.Study.Service.csproj", "{CA237D4D-D6B2-4C0F-B6CD-35B8D9C14E4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -253,6 +257,10 @@ Global
 		{59CDDDDB-1989-4AAF-8CE6-28D3FAC8126E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59CDDDDB-1989-4AAF-8CE6-28D3FAC8126E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59CDDDDB-1989-4AAF-8CE6-28D3FAC8126E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA237D4D-D6B2-4C0F-B6CD-35B8D9C14E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA237D4D-D6B2-4C0F-B6CD-35B8D9C14E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA237D4D-D6B2-4C0F-B6CD-35B8D9C14E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA237D4D-D6B2-4C0F-B6CD-35B8D9C14E4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -294,5 +302,6 @@ Global
 		{D04B716A-6DC3-4474-87D3-5DF1EB9BF566} = {A31E83A5-7F53-4907-B11D-88520345402F}
 		{963180BA-86C1-4275-AACF-FD2D8E49E71F} = {1741B500-639C-4869-87D8-0B320E61CF89}
 		{59CDDDDB-1989-4AAF-8CE6-28D3FAC8126E} = {1741B500-639C-4869-87D8-0B320E61CF89}
+		{CA237D4D-D6B2-4C0F-B6CD-35B8D9C14E4F} = {DF218EDD-597B-4762-B621-E33F2C97E66F}
 	EndGlobalSection
 EndGlobal
