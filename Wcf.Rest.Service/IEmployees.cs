@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.ServiceModel;
 using System.ServiceModel.Web;
@@ -24,7 +25,8 @@ namespace Wcf.Rest.Service
         [WebGet(UriTemplate = "{id}")]
         Employee Get(string id);
 
-        [WebInvoke(UriTemplate = "/", Method = "POST")]
+        [WebInvoke(UriTemplate = "/", Method = "POST",ResponseFormat = WebMessageFormat.Json,RequestFormat = WebMessageFormat.Json)]
+        [Description("Description for POST / to add employee")]
         void Create(Employee employee);
 
         [WebInvoke(UriTemplate = "/",Method = "PUT")]
